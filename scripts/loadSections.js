@@ -8,6 +8,7 @@ const components = [
   // rest yourself, please let me know and I will be more than
   // happy to help you out
   { id: "about", file: "views/about.html" },
+  { id: "footer", file: "views/footer.html" },
 ];
 
 components.forEach(component => {
