@@ -74,7 +74,7 @@ font-size: var(--font-size-x1);
 }
 
 .about-section .section-content {
-    gap: 270px;
+    gap: 70px;
     flex-direction: column-reverse;
 }
 
