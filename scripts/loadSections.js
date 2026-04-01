@@ -2,14 +2,16 @@ const components = [
   // I have done the chunk of the research for you guys
   // This is where you add your files and their corresponding ids
   // For example:
-  // { id: "navbar", file: "views/navbar.html" },
+  // 
 
   // If you still don't understand it or are not able to do the
   // rest yourself, please let me know and I will be more than
   // happy to help you out
 
   { id: "home", file: "views/home.html" },
+  { id: "menu", file: "views/menu.html" },
 ];
+  
 
 components.forEach(component => {
   fetch(component.file)
