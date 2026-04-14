@@ -7,8 +7,10 @@ const components = [
   // If you still don't understand it or are not able to do the
   // rest yourself, please let me know and I will be more than
   // happy to help you out
-  { id: "about-section", file: "views/about.html" },
 
+  { id: "home", file: "views/home.html" },
+  { id: "about-section", file: "views/about.html" },
+  { id: "menu", file: "views/menu.html" },
   { id: "footer-section", file: "views/footer.html" },
 ];
 
