@@ -9,9 +9,10 @@ const components = [
   // happy to help you out
 
   { id: "home", file: "views/home.html" },
+  { id: "about-section", file: "views/about.html" },
   { id: "menu", file: "views/menu.html" },
+  { id: "footer-section", file: "views/footer.html" },
 ];
-  
 
 components.forEach(component => {
   fetch(component.file)
